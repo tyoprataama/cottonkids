@@ -154,6 +154,7 @@ a {
     .item-wrap {
         grid-template-columns: 1fr 1fr;
         margin-top: -20px;
+        padding: 10px;
     }
 
     .item {
