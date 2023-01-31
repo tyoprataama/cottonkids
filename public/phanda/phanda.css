@@ -42,10 +42,90 @@ a {
     font-size: 30px;
     margin-bottom: -5px;
 }
+
 .head-desc {
     font-size: 15px;
     color: gray;
 }
+
+
+#product {
+    text-align: center;
+}
+
+.item-wrap {
+    padding: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 50px 0;
+    transition: 0.2s ease;
+}
+
+.item:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.item-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.item-desc {
+    color: #606063;
+    font-size: 12px;
+    text-align: start;
+    padding: 10px 0;
+}
+
+.item-desc span {
+    margin-bottom: -10px;
+}
+
+.item-desc h5 {
+    padding-top: 7px;
+    color: black;
+    font-size: 15px;
+}
+
+.star {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+.item-desc h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.buy-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width:480px) {
     .link-wrap {
@@ -58,5 +138,9 @@ a {
         font-size: 25px;
         margin-top: -20px;
         margin-bottom: 0;
+    }
+
+    .item-wrap {
+        grid-template-columns: 1fr;
     }
 }
