@@ -126,6 +126,17 @@ a {
     color: #fff;
 }
 
+.rate {
+    color: #606063;
+}
+.hot{
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
 /* MEDIA QUERY */
 @media screen and (max-width:480px) {
     .link-wrap {
@@ -141,6 +152,11 @@ a {
     }
 
     .item-wrap {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -20px;
+    }
+
+    .item {
+        min-width: 150px;
     }
 }

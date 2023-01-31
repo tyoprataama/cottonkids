@@ -129,7 +129,11 @@ a {
 .rate {
     color: #606063;
 }
-
+.hot{
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
 
 
 
