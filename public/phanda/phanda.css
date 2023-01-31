@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-wrap{
+    display: flex;
+    padding: 50px;
+}
+.link-home {
+    color: gray;
+}
+.link-head{
+    color: gray;
+    cursor: pointer;
+    font-size: 15px;
+}
+.phanda{
+    color: black;
+    font-weight: 600;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:480px) {
+    .link-wrap {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
