@@ -12,28 +12,51 @@ a {
     text-decoration: none;
 }
 
-.link-wrap{
+.link-wrap {
     display: flex;
     padding: 50px;
 }
+
 .link-home {
     color: gray;
 }
-.link-head{
+
+.link-head {
     color: gray;
     cursor: pointer;
     font-size: 15px;
 }
-.phanda{
+
+.phanda {
     color: black;
     font-weight: 600;
 }
 
+.head-wrap {
+    padding: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.head-title {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.head-desc {
+    font-size: 15px;
+    color: gray;
+}
 /* MEDIA QUERY */
 @media screen and (max-width:480px) {
     .link-wrap {
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+
+    .head-title {
+        font-size: 25px;
+        margin-top: -20px;
+        margin-bottom: 0;
     }
 }
