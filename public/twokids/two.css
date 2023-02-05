@@ -64,11 +64,11 @@ a {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #cce7d0;
-    border-radius: 25px;
+    border: 1px solid #b2b2b2;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 50px 0;
+    margin: 30px 0;
     transition: 0.2s ease;
 }
 
@@ -94,7 +94,6 @@ a {
 }
 
 .item-desc h5 {
-    padding-top: 7px;
     color: black;
     font-size: 15px;
 }
@@ -105,7 +104,6 @@ a {
 }
 
 .item-desc h4 {
-    padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -129,10 +127,12 @@ a {
 .rate {
     color: #606063;
 }
-.hot{
-    padding: 50px;
+
+.hots {
     font-size: 25px;
     font-weight: 600;
+    padding: 10px;
+    text-align: center;
 }
 
 
