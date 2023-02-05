@@ -211,20 +211,24 @@ footer {
     font-size: 14px;
 }
 
-.size-img{
+.size-img {
     width: 600px;
     height: 600px;
 }
-.size-title{
+
+.size-title {
     font-size: 40px;
 }
+
 .size-wrap {
     padding: 50px;
 }
-.size-cart{
+
+.size-cart {
     align-items: center;
     text-align: center;
 }
+
 /* MEDIA QUERY */
 @media screen and (max-width:480px) {
     nav {
@@ -273,21 +277,22 @@ footer {
         flex-direction: column;
     }
 
-    .gallery-title, .size-title {
+    .gallery-title,
+    .size-title {
         font-size: 30px;
     }
 
     .btn-wrap {
         top: 20%;
-
     }
-    .size-img{
+
+    .uu {
+        left: 23%;
+    }
+
+    .size-img {
         width: 300px;
         height: 300px;
-    }
-
-    .phanda {
-        left: 10%;
     }
 
     .newSeason {
