@@ -135,6 +135,12 @@ a {
     text-align: center;
 }
 
+#modal-cont{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 .modal-container {
     position: absolute;
     top: 0;
@@ -189,16 +195,19 @@ a {
 .modal-close {
     display: inline-flex;
     border-radius: .25rem;
-    background-color: aliceblue;
+    background-color: rgb(208, 208, 208);
     position: absolute;
     top: 2rem;
     right: 2rem;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .btn-mod {
     display: inline-block;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     padding: 1rem;
     border-radius: .5rem;
     transition: .3s;
@@ -206,11 +215,8 @@ a {
     margin-top: 20px;
     border: 1px solid #000;
 }
-.shopee{
-    background-color: #ff8041;
-}
-.wa{
-    background-color: rgb(61, 255, 74);
+.polo1 {
+    background-image: url(./img/cat-polo.svg);
 }
 
 
