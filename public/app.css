@@ -26,14 +26,15 @@ a {
 }
 
 .nav-title {
-    font-weight: 800;
+    font-weight: 400;
     font-size: 30px;
 }
 
 .hero-img {
     width: 100%;
-    margin-top: -100px;
     cursor: pointer;
+    margin-top: -200px;
+    z-index: 1;
 }
 
 .category {
@@ -373,7 +374,12 @@ footer {
 /* MEDIA QUERY */
 @media screen and (max-width:480px) {
     nav {
-        padding: 20px;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
     }
 
     .nav-title {
@@ -381,7 +387,7 @@ footer {
     }
 
     .hero-img {
-        margin-top: -25px;
+        margin-top: 40px;
     }
 
     .category {
