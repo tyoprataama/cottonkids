@@ -377,7 +377,7 @@ li {
 
 
 footer {
-    background-color: #fff;
+    background-color: #e8e8e8;
     color: #000;
     padding: 1em;
 }
@@ -419,6 +419,7 @@ footer {
 
 .f-list {
     padding: 0;
+    cursor: pointer;
 }
 
 .size-img {
