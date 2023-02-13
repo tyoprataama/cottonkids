@@ -246,4 +246,7 @@ a {
     .item {
         min-width: 150px;
     }
+    .hots{
+        margin-top: -30px;
+    }
 }
